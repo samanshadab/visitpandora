@@ -1,0 +1,575 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #fafafa;
+}
+
+.home-background{
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #003366;
+	
+	
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.logo{
+	width:100%;
+	height: 100px;
+	background-color: #214e86;
+}
+
+.logo img{
+	padding-left: 240px;
+}
+
+.navbar {
+	width: 100%;
+	height: 47px;
+	background-color: #3e77bc;
+	margin: 0 auto;
+	
+}
+
+
+.navbar ul a{
+	text-decoration: none;
+	color: #fafafa;
+	display: block;
+	float: left;
+	padding: 15px 0px 15px 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	list-style-type: none;
+	text-align: left;
+	width: 140px;
+	}
+
+.active{
+	background-color: #6666cc;
+}
+
+ul li a:hover{
+	background-color: #6666cc;
+	width: 140px;
+}
+
+#hero-image{
+	background-image: url(../images/hero-image.jpg);
+	background-size: cover;
+	height:554px;
+}
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px black;
+	font-weight: 700;
+	color: #fafafa;
+	font-size: 40px;
+	
+}
+#hero-image h1{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px black;
+	line-height: 50px;
+	font-weight: 700;
+	color: #fafafa;
+	font-size: 40px;
+	padding: 370px 0px 0px 240px ;
+}
+
+.button{
+	width: 140px;
+	height: 40px;
+	margin: 15px 0px 0px 240px;
+	background-color: #bdcb27;
+	border-radius: 10px;
+}
+
+.button a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #214e86;
+	position: relative;
+	top: 11px;
+	left: 17px;
+}
+
+.button:hover{
+background-color: yellow;
+}
+
+
+#packages-background{
+	width: 100%;
+	background-image: url(../images/Booking%20Form.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.packages{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+	
+}
+
+.packages h1{
+	color: #214e86;
+	text-align: center;
+}
+
+
+.packages ul{
+	color: black;
+	font-family: 'arial', sans-serif;
+	line-height: 40px;
+	text-align: center;
+	padding: 10px;
+}
+
+.platinum{
+	width: 270px;
+	height: 495px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 25px;
+	padding: 15px;
+}
+.platinum h1{
+	background-color: rebeccapurple;
+	padding: 10px;
+	color: #fafafa;
+	border-radius: 14px;
+}
+
+.silver{
+	width: 270px;
+	height: 495px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.silver h1{
+	background-color: grey;
+	padding: 10px;
+	color: #fafafa;
+	border-radius: 14px;
+}
+.gold{
+	width: 270px;
+	height: 495px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.gold h1{
+	background-color: goldenrod;
+	padding: 10px;
+	color: #fafafa;
+	border-radius: 14px;
+}
+
+#things-to-do{
+	background-color: #003366;
+}
+
+#things-to-do h1{
+	padding: 82px 0px 0px 0px;
+	text-shadow: 1px 1px black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #fafafa;
+	font-size: 40px;	
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 45px 0px 66px 0px;
+}
+
+.container h2{
+	color: #fafafa;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	padding-top: 18px;
+}
+.container p{
+	color: #fafafa;
+	font-family: 'arial', sans-serif;
+	font-size: 15px;
+	padding-top: 13px;
+	padding-bottom: 50px;
+	line-height: 18px;
+}
+
+.item-1{
+	width: 454px;	
+}
+
+.item-2{
+	width: 454px;
+}
+
+.item-3{
+	width: 454px;
+}
+
+.item-4{
+	width: 454px;
+}
+
+#footer{
+	width: 100%;
+	background-color: #3378cc;
+}
+
+.footer-container{
+	margin: 0 auto;
+	background-color: #3378cc;
+	display: flex;
+	justify-content:space-between;
+	align-items: center
+}
+
+.footer-links{
+	width: 17%;
+}
+
+.social{
+	width: 9%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 50px;
+
+}
+.footer-links li a{
+	color: #fafafa;
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.copyright img{
+	margin: 0;
+}
+.copyright p{
+	color: #fafafa;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	
+}
+
+
+.social li a{
+	color: #fafafa;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.booking-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact{
+	width: 100%;
+	height: 851px;
+	background-image: url(../images/Contact%20Us.jpg);
+	text-align: center;
+	
+}
+
+.contact-form{
+	width: 511px;
+	height: 430px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 25px;
+	padding: 25px;
+	margin: 0 auto;
+	position: relative;
+	top:60px;
+}
+
+.contact-form h1{
+	color: #214e86;
+	text-align: center;
+	padding: 15px;
+	text-shadow: none;
+}
+
+.contact-form p{
+	font-family: 'arial', sans-serif;
+	font-size: 12px;
+	padding-top: 15px;
+	line-height: 15px;
+}
+
+.contact{
+	text-align: center;
+	font-family: 'arial', sans-serif;
+	font-size:11px;
+	color: #777;
+	margin-top: 5px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact input[type="url"],
+.contact input[type="password"],
+.contact textarea {
+  width: 55%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+.contact textarea { 
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact button[type="submit"]{
+	background-color: #214e86;
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	color: #fafafa;
+	margin: 10px 0px;
+	font-family:'Montserrat', san-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px;
+}
+
+.thingstodo-container{
+	background-color: #e3e9ee;
+
+}
+
+#thingstodo-main{
+	width:100%;
+	height: 635px;
+	background-image: url(../images/Thingstodo-main.jpg);
+	}
+
+	
+.things-to-do-1{
+	margin: 0 auto;
+	width:960px;
+	}
+
+.things-to-do-1{
+	padding: 50px 0px 0px 0px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px black;
+	line-height: 50px;
+	font-weight: 700;
+	color: #fafafa;
+	font-size: 40px;
+}
+	
+#thingstodo-main h1{
+	padding: 82px 0px 0px 0px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px black;
+	line-height: 50px;
+	font-weight: 700;
+	color: #fafafa;
+	font-size: 40px;
+	padding: 460px 0px 0px 240px;
+}
+
+#thingstodo-main p{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px black;
+	font-weight: 700;
+	color: #fafafa;
+	font-size: 20px;
+	padding: 10px 0px 0px 240px;
+}
+
+.thingstodo-container h1{
+	color: #003366;
+	text-shadow: none;
+}
+
+.thingstodo-container .container h2{
+	color: #003366;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	padding-top: 18px;
+	text-shadow: none;
+	
+}
+
+.thingstodo-container .container p{
+	color: grey;
+	font-family: 'arial', sans-serif;
+	font-size: 15px;
+	padding-top: 13px;
+	padding-bottom: 50px;
+	line-height: 18px;
+	text-shadow: none;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+.prefix {
+  font-size: 1.4rem !important;
+  top: 14px;
+  left: 0;
+}
+.btn-block {
+  	background-color: #214e86;
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	color: #fafafa;
+	margin: 10px 0px;
+	font-family:'Montserrat', san-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.login-popup {
+  display: none;
+  background: rgba(33, 33, 33, .5);
+  position: absolute;
+  z-index: 99999;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  min-height: 500px;
+  padding: 50px 0 0;
+}
+  .close-icon {
+    color: #FFF;
+    position: absolute;
+    z-index: 999999;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .login-popup__form {
+    background: #FFF;
+    height: 310px;
+    width: 360px;
+    overflow-y: scroll;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+    .corp-logo {
+      background: #3378cc;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      border-radius: 8px 8px 0 0;
+      color: #FFF;
+}
+
+      .corp-logo__heading {
+        font-size: 26px;
+        margin-left: 37px;
+      } 
+    
+
+    .form-body {
+      padding: 0 25px 10px;
+      width: 100%;
+		align-items: center;
+      } 
+
+.welcoming-section {
+  color: #777;
+}
+
+.model-title{
+	font-family: "arial", sans-serif;
+	font-size: 15px;
+	margin: 20px 0px; 
+	text-align: center;
+	
+}
+
+
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+
+<html lang="EN">
+    
+<head>
+    <title>Visit Pandora</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Ticket booking site for Visit Pandora Expeditions"/>
+	<meta name="author" content ="Saman Shadab"/>
+ 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="css/master.css"/> 
+</head>
+
+	
+	
+<body>
+	<header class="logo">
+	<img src="images/Pandora%20Logo.png" alt="Pandora Logo">
+	</header>
+	
+	<nav class="navbar">
+	<div class="wrapper">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="bookingform.html">Book Tickets</a></li>
+			<li><a href="Thingstodo.html">Things to do</a></li>
+			<li><a class="active" href="contact.html">Contact us</a></li>
+			<li style="float:right"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+			<li style="float:right"><a href="#" id="login">Log in</a></li>
+
+		</ul>
+		</div>
+	</nav>
+	
+	<div id="contact">
+	<div class="contact-form">
+		<h1>Contact Form</h1>
+		<form class="contact" action="#" method="post">
+		<fieldset>
+		<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+		</fieldset>
+		
+		<fieldset>
+		  <input placeholder="Your Email Address" type="email" tabindex="2" required>
+		</fieldset>
+		
+		<fieldset>
+		  <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+		</fieldset>
+		
+		<fieldset>
+		<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+		</fieldset>
+	  </form>
+		
+		<p>For assistance with your Visit Pandora trip, please call <br>0800 028 0778 (UK) or 1800 812 678 (Ireland)</p>
+		
+		</div>
+	</div>
+	
+	
+	
+	<div id="footer">
+	<div class="wrapper">
+			<div class="footer-container">
+		
+			<ul class="footer-links">
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#"> Safety precautions</a></li>
+				<li><a href="#">Theme Park Rules</a></li>
+				<li><a href="#">Terms &amp; conditions</a></li>
+				<li><a href="#">Cancellation Policy</a></li>
+			</ul>
+			
+			<div class="copyright">
+				<img src="images/Pandora%20Logo.png" alt="Pandora Logo">
+				<p>&copy;2018 Visit Pandora Expedition. All Rights Reserved.</p>
+			
+			</div>
+	
+			<ul class="social">
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		
+		</div>
+	</div>
+</div>
+
+<div class="login-popup">
+	<i class="fa fa-times-circle close-icon" aria-hidden="true"></i>
+  <div class="login-popup__form hoverable">
+   
+    <div class="corp-logo center-align">
+      <h1 class="corp-logo__heading"> Pandora missed you!</h1>
+    </div>
+
+    <div class="form-body">
+
+      <div class="welcoming-section">
+        <p class="model-title">Login to your account.</p>
+      </div>
+
+      <!-- start of the form -->
+      
+		<form class="contact" action="#" method="post">
+		
+		<fieldset>
+		  <input placeholder="Username or Email Address" type="email" tabindex="1" required>
+		</fieldset>
+		
+		<fieldset>	
+		 <input placeholder="Password" type="password" class="validate">
+		</fieldset>
+		
+         
+		<div class="input-field col s12">
+            <button class="btn btn-block waves-effect waves-light btn-primary">LOGIN</button>
+        </div>
+			<p>New to Pandora? <span style="text-decoration: underline">Register Here</span></p>	
+      </form>
+      
+		<!-- end of the form -->
+    </div>
+  </div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js" ></script>
+   
+</body>
+</html>
